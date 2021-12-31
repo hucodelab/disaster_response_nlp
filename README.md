@@ -53,7 +53,16 @@ disaster_response_nlp/
 
 # 4. How to interact with the project
 
-The database used to develop this project contains more than 10,000 messages classified into 36 different categories.
+The database used to develop this project contains more than 25,000 messages classified into 36 different categories: 
+
+'related', 'request', 'offer', 'aid_related', 'medical_help',
+'medical_products', 'search_and_rescue', 'security', 'military',
+'child_alone', 'water', 'food', 'shelter', 'clothing', 'money',
+'missing_people', 'refugees', 'death', 'other_aid',
+'infrastructure_related', 'transport', 'buildings', 'electricity',
+'tools', 'hospitals', 'shops', 'aid_centers', 'other_infrastructure',
+'weather_related', 'floods', 'storm', 'fire', 'earthquake', 'cold',
+'other_weather', 'direct_report'
 
 The website allows the user to enter a message and it will be classified into the 36 different categories. 
 
