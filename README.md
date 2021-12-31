@@ -47,7 +47,7 @@ disaster_response_nlp/
     classifier.plk
     train_classifier.py
 
-├── disaster_response_nlp-model2.ipynb
+├── disaster_response_nlp-model3.ipynb
 
 ├── ETL Pipeline Preparation.ipynb
 
@@ -64,7 +64,7 @@ The database used to develop this project contains more than 25,000 messages cla
 'weather_related', 'floods', 'storm', 'fire', 'earthquake', 'cold',
 'other_weather', 'direct_report'
 
-The website allows the user to enter a message and it will be classified into the 36 different categories. 
+The website allows the user to enter a message and it will be classified into the 36 different categories. In order to classify the messages, the website uses a machine learning algorithm: Random Forest Regressor.
 
 The  website also contains visualizations of the data that was used to train the machine learning algorithms used in the project to build the model.
 
