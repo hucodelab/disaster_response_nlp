@@ -73,6 +73,9 @@ def clean_data(df):
 
 
 def save_data(df, database_filename):
+    '''
+    This function saves the clean dataset into an sqlite database
+    '''
     # Save the clean dataset into an sqlite database
     engine = create_engine('sqlite:///{}'.format(database_filename))    
     df.to_sql('YourTableName', engine, index=False, if_exists='replace')
